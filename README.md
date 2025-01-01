@@ -1,3 +1,13 @@
+# ATTN: License change
+
+LiveCompositor changed their license to BUSL as of commit `9b5b30c`. This fork is based on the last commit under the Apache 2.0 license.
+
+Forks of the following related projects are also available pinned to the last valid Apache 2.0 commit compatible with this fork:
+
+- [membrane_live_compositor_plugin](https://github.com/weaversam8/membrane_live_compositor_plugin)
+
+<hr>
+
 <h1 align="center">
   <img src="assets/lc_logo_large.svg" width=600 alt="LiveCompositor">
 
@@ -19,12 +29,13 @@ We don't have plans to introduce any major breaking changes in the API in the fo
 Check out our [`Getting started`](https://compositor.live/docs/intro) section.
 
 LiveCompositor supports Linux and macOS and can be used in 2 ways:
+
 - Standalone media server - [`compositor.live/docs`](https://compositor.live/docs/intro).
-- Element in a Membrane Framework pipeline - [github.com/membraneframework/membrane_live_compositor_plugin](https://github.com/membraneframework/membrane_live_compositor_plugin).
+- Element in a Membrane Framework pipeline - [github.com/weaversam8/membrane_live_compositor_plugin](https://github.com/weaversam8/membrane_live_compositor_plugin).
 
 ## Demos
 
-https://github.com/membraneframework/live_compositor/assets/104033489/e6f5ba7c-ab05-4935-a42a-bc28c42fc895
+https://github.com/weaversam8/live-compositor/assets/104033489/e6f5ba7c-ab05-4935-a42a-bc28c42fc895
 
 This is just a sample of effects that you can achieve with LiveCompositor. It is a compilation of a few demo projects
 written in TypeScript that you can find in [`demos`](./demos) directory.
