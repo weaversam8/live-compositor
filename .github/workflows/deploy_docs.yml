@@ -20,7 +20,7 @@ concurrency:
 jobs:
     deploy:
         name: Deploy to GitHub Pages
-        runs-on: ubuntu22.04
+        runs-on: ubuntu-22.04
         container:
             image: ubuntu:mantic-20231011
         defaults:
