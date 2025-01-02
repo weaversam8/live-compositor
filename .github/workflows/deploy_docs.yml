@@ -20,7 +20,7 @@ concurrency:
 jobs:
     deploy:
         name: Deploy to GitHub Pages
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-22.04
         container:
             image: ubuntu:mantic-20231011
         defaults:
@@ -46,7 +46,7 @@ jobs:
                   node-version: 20
 
             - name: 🔧 Install the rust toolchain
-              uses: dtolnay/rust-toolchain@stable
+              uses: dtolnay/rust-toolchain@1.77.2
 
             - name: 📄 Generate docs from JSON schema
               run: cargo run --bin generate_docs
